@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: justify;
+}
+
+/* Layout */
+
+.container {
+  margin: 1.5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 0.2em;
+}
+
+.container:first-child {
+  grid-column: 1/ -1;
+  max-height: 29vh;
+}
+
+img {
+  max-width: 100%;
+  max-height: inherit;
+  object-fit: cover;
+}
