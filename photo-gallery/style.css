@@ -14,13 +14,6 @@ body {
   grid-gap: 0.2em;
 }
 
-.container:first-child {
-  grid-column: 1/ -1;
-  max-height: 29vh;
-}
-
 img {
   max-width: 100%;
-  max-height: inherit;
-  object-fit: cover;
 }
